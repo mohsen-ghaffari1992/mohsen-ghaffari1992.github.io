@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohsen Ghaffari - Publications</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div style="font-size: 30px;"><strong>Mohsen Ghaffari</strong></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <!--    <a href="#projects">Projects</a>-->
+    <a href="publications.html">Publications</a>
+    <a href="students.html">Students</a>
+    <a href="teaching.html">Teaching</a>
+    <a href="talks.html">Talks</a>
+    <a href="files/cv.pdf" download>CV</a>
+    <!--    <a href="#contact">Contact</a>-->
+  </nav>
+  <button id="dark-mode-toggle" aria-label="Toggle dark mode"><i class="fa fa-moon-o" aria-hidden="true"></i></button>
+</header>
+
+<main>
+  <h1>Publications</h1>
+  <h2>Peer Reviewed Conference Proceedings</h2>
+  <ul>
+    <li><strong>Symbolic State Seeding Improves Coverage of Reinforcement Learning</strong>, <u>Mohsen Ghaffari</u>, Cong Chen, Mahsa Varshosaz, Einar Broch Johnsen, Andrzej Wąsowski, <em>SEAMS</em>, 2025</li>
+
+    <!--    <li><strong>Multi-Agent Reinforcement Learning for Search-and-Rescue with Cooperative Rotation Maneuver</strong>, Danyal Yorulmaz, Tobias Gad Spoorendonk, <u>Mohsen Ghaffari</u>, Mahsa Varshosaz, Andrzej Wąsowski, <em>Under Review</em>, 2024</li>-->
+
+    <li><strong>Symbolic State Partitioning for Reinforcement Learning</strong>, <u>Mohsen Ghaffari</u>, Mahsa Varshosaz, Einar Broch Johnsen, Andrzej Wąsowski, <em>FASE</em>, 2025 <strong>[ETAPS 2025 Distinguished Paper]</strong></li>
+
+    <li><strong>Using Symbolic Execution to Discretize State Spaces for Reinforcement Learning</strong>, <u>Mohsen Ghaffari</u>, Mahsa Varshosaz, Einar Broch Johnsen, Andrzej Wąsowski, <em>34th Nordic Workshop on Programming Theory (NWPT)</em>, 2023</li>
+
+    <li><strong>Formal Specification and Testing for Reinforcement Learning</strong>, Mahsa Varshosaz, <u>Mohsen Ghaffari</u>, Einar Broch Johnsen, Andrzej Wąsowski, <em>Proceedings of the ACM on Programming Languages (ICFP)</em>, 2023</li>
+
+
+    <li><strong>Towards Formal Specification of Reinforcement Learning</strong>, Mahsa Varshosaz, <u>Mohsen Ghaffari</u>, Einar Broch Johnsen, Andrzej Wąsowski, <em>7th Workshop on Learning in Verification (LiVe)</em>, 2023</li>
+
+
+  </ul>
+
+  <h2>Journal Articles</h2>
+  <ul>
+    <!--    <li><strong>Minimizing Combined Sewer Overflows with Online Model-Predictive Reinforcement Learning</strong>, Esther Hahyeon Kim, <u>Mohsen Ghaffari</u>, Andreas Holck Høeg-Petersen, Martijn Goorden, Thomas Dyhre Nielsen, Kim Guldstrand Larsen, Andrzej Wąsowski, <em>Urban Water Journal (under review)</em>, 2024</li>-->
+
+    <!--    <li><strong>Graph Transformatio&lt;!&ndash;&ndash;&gt;n for Multi-agent Reinforcement Learning based Patrolling</strong>, Sepideh Bagheri, <u>Mohsen Ghaffari</u>, Mansoor Davoodi, <em>Under Review</em>, 2025</li>-->
+
+    <li><strong>Learning-based systems for assessing hazard places of contagious diseases and diagnosing patient possibility</strong>, Mansoor Davoodi, <u>Mohsen Ghaffari</u>, <em>Expert Systems with Applications</em>, 2023</li>
+
+    <li><strong>Shortest path problem on uncertain networks: An efficient two phases approach</strong>, Mansoor Davoodi, <u>Mohsen Ghaffari</u>, <em>Computers & Industrial Engineering</em>, 2021</li>
+
+    <li><strong>Learning to shift load under uncertain production in the smart grid</strong>, <u>Mohsen Ghaffari</u>, Mohsen Afsharchi, <em>International Transactions on Electrical Energy Systems</em>, 2021</li>
+  </ul>
+
+</main>
+
+<script>
+  const toggleButton = document.getElementById('dark-mode-toggle');
+  const icon = toggleButton.querySelector('i');
+
+  toggleButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark');
+    icon.className = document.body.classList.contains('dark') ? 'fa fa-sun-o' : 'fa fa-moon-o';
+  });
+</script>
+
+</body>
+</html>
